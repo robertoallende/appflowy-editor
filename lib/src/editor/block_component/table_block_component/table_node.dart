@@ -194,7 +194,7 @@ class TableNode {
   }) {
     // The extra 8 is because of paragraph padding
     double maxHeight = _cells
-        .map<double>((c) => c[row].children.first.rect.height + 8)
+        .map<double>((c) => c[row].children.first.rect.height)
         .reduce(max);
 
     if (_cells[0][row].attributes[TableCellBlockKeys.height] != maxHeight &&

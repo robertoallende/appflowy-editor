@@ -127,7 +127,7 @@ class _TableCeBlockWidgetState extends State<TableCelBlockWidget> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 4),
+                  padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                   child: editorState.renderer.build(
                     context,
                     widget.node.children.first,
