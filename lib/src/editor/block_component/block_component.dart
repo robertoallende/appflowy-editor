@@ -27,6 +27,8 @@ export 'bulleted_list_block_component/bulleted_list_character_shortcut.dart';
 export 'divider_block_component/divider_block_component.dart';
 export 'divider_block_component/divider_character_shortcut.dart';
 export 'divider_block_component/divider_menu_item.dart';
+// code block
+export 'code_block_component/code_block_component.dart';
 // heading
 export 'heading_block_component/heading_block_component.dart';
 export 'heading_block_component/heading_character_shortcut.dart';
