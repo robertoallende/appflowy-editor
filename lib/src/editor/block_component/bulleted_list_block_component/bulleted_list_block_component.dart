@@ -231,7 +231,7 @@ class _BulletedListIcon extends StatelessWidget {
 
     return Container(
       constraints:
-          const BoxConstraints(minWidth: 26, minHeight: 22) * textScaleFactor,
+          const BoxConstraints(minWidth: 22, minHeight: 18) * textScaleFactor,
       padding: const EdgeInsets.only(right: 4.0),
       child: Center(
         child: Text(
